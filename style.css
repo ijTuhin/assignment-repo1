@@ -94,3 +94,11 @@
 .mid-2 img{
     width: 80%;
 }
+
+
+footer{
+    margin: 0% 0% 0% 0%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
