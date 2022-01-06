@@ -1,6 +1,6 @@
 .intro-sec{
     display: flex;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
 }
 .intro-1{
     width: 50%;
@@ -75,6 +75,11 @@
     display: flex;
     margin-bottom: 5%;
     margin-left: 5%;
+
+    background-image: url(img/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: 0% 50% ;
+    background-size: 10%;
 }
 .mid-1{
     width: 70%;
@@ -113,8 +118,26 @@
 
 .last{
     text-align: center;
+    margin: 0 0 2% 0;
 }
-
+.form{
+    padding: 1% 0 1% 0;
+    margin: 0 35% 0 35%;
+    width: 30%;
+    border: 1px solid black;
+}
+input{
+    width: 30%;
+    padding: 3% 0 3% 0;
+    border: none;
+}
+#email{
+    width: 71%;
+}
+#msg{
+    width: 71.5%;
+    padding: 0 0 20% 0;
+}
 
 footer{
     display: inline-block;
