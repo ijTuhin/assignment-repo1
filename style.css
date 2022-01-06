@@ -1,6 +1,7 @@
+
 .intro-sec{
     display: flex;
-    margin-bottom: 7%;
+    margin-bottom: 5%;
 }
 .intro-1{
     width: 50%;
@@ -76,19 +77,19 @@
     margin-bottom: 5%;
     margin-left: 5%;
 
-    background-image: url(img/shape-1.png);
+    background-image: url(img/shape-5.png);
     background-repeat: no-repeat;
     background-position: 0% 50% ;
     background-size: 10%;
 }
 .mid-1{
-    width: 70%;
+    width: 50%;
     padding-right: 9%;
 
     
 }
 .mid-1 img{
-    width: 65%;
+    width: 50%;
     margin-left: 11.5%;
     padding-top: 2px;
 }
@@ -97,7 +98,7 @@
     padding-top: 60px;
 }
 .text-3{
-    width: 60%;
+    width: 47%;
     padding-right: 0%;
     padding-top: 60px;
     padding-left: 8%;
@@ -106,44 +107,69 @@
 
 
 #img{
-    width: 75%;
+    width: 53%;
     padding-left: 50px;
-    padding-bottom: 40px;
-    background-image: url(img/shape-1.png);
+    padding-bottom: 60px;
+    background-image: url(img/bluecircles.png);
     background-repeat: no-repeat;
-    background-position: 82% 223px ;
+    background-position: 82% 245px ;
     background-size: 20%;
 }
 
-
-.last{
+.last-sec{
+    margin: 0 0 5% 0;
+}
+.last-sec h1{
     text-align: center;
-    margin: 0 0 2% 0;
+    font-size: 2rem;
 }
-.form{
-    padding: 1% 0 1% 0;
-    margin: 0 35% 0 35%;
-    width: 30%;
-    border: 1px solid black;
+.last-sec h1 span{
+    color: cadetblue;
 }
-input{
-    width: 30%;
-    padding: 3% 0 3% 0;
-    border: none;
+.last{
+    margin-left: 22%;
+    display: flex;
+    width: 56%;
+    /*background-image: linear-gradient(-45deg, rgb(118, 192, 186), rgb(206, 239, 240));
+    padding: 3% 0;
+    border: none;*/
+
+    background-image: url(img/shape-4.png);
+    background-repeat: no-repeat;
+    background-position: 95.5% 60% ;
+    background-size: 20%;
 }
-#email{
-    width: 71%;
+.last img{
+    padding-top: 7%;
+    width: 40%;
+    height: 40%;
+
 }
-#msg{
-    width: 71.5%;
-    padding: 0 0 20% 0;
+.project{
+    padding-left: 5%;
+    width: 70%;
+}
+.project h1{
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+    border-left: 3px solid black;
+    border-image: linear-gradient(#3ad6ea, #038291);
+    border-image-slice: 3;
+}
+.project-2{
+    padding-left: 5%;
+    width: 70%;
+}
+.project-2 p{
+    float: left;
 }
 
 footer{
     display: inline-block;
     margin: 0 -10px -20px -10px;
     padding: 3px 5px 3px 4px;
-    width: 100%;
+    width: 98.25vw;
     text-align: center;
     background-color: black;
     color: white;
