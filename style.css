@@ -8,11 +8,11 @@
     margin-left: 2%;
 }
 .text{
-    padding-top: 75px;
+    padding-top: 65px;
 }
 .intro-1 img{
     width: 50%;
-    margin-left: 15%;
+    margin-left: 25%;
     padding-top: 2px;
 }
 .intro-1 span{
@@ -40,11 +40,11 @@
 
 
 
-.mid-sec{
+.sec-2{
     display: flex;
     margin: 3% 7% 10% 8%;
 }
-.mid-sec img{
+.sec-2 img{
     width: 30%;
 }
 .mid-box{
@@ -70,29 +70,44 @@
 }
 
 
-.text-mid{
-    padding-top: 60px;
-}
-.mid-sec2{
+
+.mid-sec{
     display: flex;
     margin-bottom: 5%;
     margin-left: 5%;
 }
-.mid{
-    width: 40%;
+.mid-1{
+    width: 70%;
+    padding-right: 9%;
+
+    
 }
-.mid img{
-    padding-left: 10%;
-    width: 80%;
+.mid-1 img{
+    width: 65%;
+    margin-left: 11.5%;
+    padding-top: 2px;
+}
+.text-2{
+    padding-left: 0%;
+    padding-top: 60px;
+}
+.text-3{
+    width: 60%;
+    padding-right: 0%;
+    padding-top: 60px;
+    padding-left: 8%;
 }
 
 
-.mid-2{
-    padding-left: 10%;
-    width: 40%;
-}
-.mid-2 img{
-    width: 80%;
+
+#img{
+    width: 75%;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    background-image: url(img/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: 82% 223px ;
+    background-size: 20%;
 }
 
 
@@ -102,6 +117,7 @@
 
 
 footer{
+    display: inline-block;
     margin: 0 -10px -20px -10px;
     padding: 3px 5px 3px 4px;
     width: 100%;
@@ -112,3 +128,14 @@ footer{
 footer span{
     color: salmon;
 }
+
+
+
+
+
+
+
+
+
+
+
